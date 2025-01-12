@@ -38,7 +38,7 @@ def convert_seconds(time):
 def round_one(servers, time_daemon):
     print("\nRound 1")
     for s in servers:
-        print(f"{time_daemon.name} {s.name}: {convert_seconds(s.time)}")
+        print(f"{time_daemon.name} {s.name}: {convert_seconds(time_daemon.time)}")
 
 
 def round_two(servers, time_daemon):
